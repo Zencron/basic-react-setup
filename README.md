@@ -8,7 +8,7 @@ npm init -y
 
 Installing required dependencies:
 
-  webpack // installs webpack
+  webpack webpack-cli // installs webpack
 
   webpack-dev-server // webpack's development server for hot-loading while programming
 
@@ -21,7 +21,7 @@ Installing required dependencies:
   style-loader css-loader // webpack loader for css files
 
 ```
-npm i webpack webpack-dev-server react react-dom @babel/core babel-loader @babel/preset-env @babel/preset-react html-webpack-plugin html-loader style-loader css-loader --save-dev
+npm i webpack webpack-cli webpack-dev-server react react-dom @babel/core babel-loader @babel/preset-env @babel/preset-react html-webpack-plugin html-loader style-loader css-loader --save-dev
 ```
 
 webpack.config.js
